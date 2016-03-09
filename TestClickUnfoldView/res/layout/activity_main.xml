@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.example.testclickunfoldview.ClickUnfoldView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/click"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFFF00"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="#FF6600" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/unfold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="close" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="4" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="5" />
+        </LinearLayout>
+    </com.example.testclickunfoldview.ClickUnfoldView>
+
+</RelativeLayout>
