@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WoWoPathView">
+        <attr name="pathColor" format="color"/>
+        <attr name="pathWidth" format="float"/>
+        <attr name="headImageId" format="integer"/>
+        <attr name="headImageWidth" format="float"/>
+        <attr name="headImageHeight" format="float"/>
+    </declare-styleable>
+
+</resources>
